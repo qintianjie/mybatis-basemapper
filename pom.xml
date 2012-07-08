@@ -5,21 +5,6 @@
 	<artifactId>mybatis-basemapper</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 
-	<dependencies>
-		<dependency>
-			<groupId>org.ow2.asm</groupId>
-			<artifactId>asm</artifactId>
-			<version>4.0</version>
-		</dependency>
-	<!-- 
-			<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-beans</artifactId>
-			<version>${spring.version}</version>
-		</dependency>
-	 -->
-	</dependencies>
-
 	<build>
 		<plugins>
 			<plugin>
@@ -46,7 +31,5 @@
 		<!-- JVM memory size -->
 		<jvm.minMem>128m</jvm.minMem>
 		<jvm.maxMem>-Xmx768m</jvm.maxMem>
-		
-		<spring.version>3.2.0.M1</spring.version>
 	</properties>
 </project>
